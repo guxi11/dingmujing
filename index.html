@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>定目镜 Steadeye · 稳稳放大你的眼睛</title>
+<meta name="description" content="定目镜稳稳锁住你的一只眼睛、放大到屏幕上，戴摘隐形眼镜、滴眼药水、涂眼膏时都能看清自己的眼睛。Steadeye keeps a steady close-up of one eye on your screen.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<i id="en"></i><i id="zh"></i>
+
+<header class="bar">
+  <a class="brand" href="./"><svg class="ic" viewBox="0 0 88 88" style="stroke-width:5"><path d="M8 44C20 26 32 20 44 20s24 6 36 24C68 62 56 68 44 68S20 62 8 44Z"/><circle cx="44" cy="44" r="11"/></svg>定目镜 <small>Steadeye</small></a>
+  <nav>
+    <a class="zh" href="PRIVACY.html">隐私</a><a class="zh" href="FEEDBACK.html">反馈</a><a class="zh" href="#en" lang="en">EN</a>
+    <a class="en" lang="en" href="PRIVACY.html#english">Privacy</a><a class="en" lang="en" href="FEEDBACK.html#english">Feedback</a><a class="en" href="#zh">中文</a>
+  </nav>
+</header>
+
+<main>
+<!-- ── Hero ── -->
+<section class="hero wrap">
+  <h1><span class="zh">定目镜</span><span class="en" lang="en">Steadeye</span><small><span class="zh">Steadeye</span><span class="en">定目镜</span></small></h1>
+  <p class="sub zh">戴隐形、滴眼药时稳稳放大你的眼睛</p>
+  <p class="sub en" lang="en">A steady close-up of your eye — for contacts, drops and ointment</p>
+  <p class="lede zh">一面会盯住眼睛的镜子：前置摄像头稳稳锁住你的一只眼睛、放大到屏幕上，戴摘隐形眼镜、滴眼药水、涂眼膏时都能看清自己的眼睛。</p>
+  <p class="lede en" lang="en">A camera mirror that keeps its eye on yours: Steadeye locks steadily onto your iris and shows your eye up close, so you can see what you're doing when putting in or taking out contact lenses, using eye drops or applying ointment.</p>
+  <!-- App 尚未上架：上架后把下面的 <span> 换成 <a class="cta" href="https://apps.apple.com/app/idXXXXXXXXXX">，中英两处都换 -->
+  <span class="cta zh" aria-disabled="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>即将在 App Store 上架</span>
+  <span class="cta en" lang="en" aria-disabled="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Coming soon to the App Store</span>
+  <p class="req"><span class="zh">适用于 iOS 17 及以上的 iPhone</span><span class="en" lang="en">For iPhone with iOS 17 or later</span></p>
+
+  <!-- 示意插画：横拿的手机，屏幕是白光板，放大窗里一只插画眼睛带金瞳贴图，眼心立起向上的箭头。纯矢量，不含真人照片。 -->
+  <div class="stage" role="img" aria-label="示意图：横拿的手机，屏幕发白光，放大窗里是一只被锁定放大的眼睛，眼心立起一支指向上方的箭头 / Illustration: a phone held sideways, its screen glowing white, with a magnified eye and an arrow pointing up">
+    <svg viewBox="0 0 800 420" aria-hidden="true">
+      <defs>
+        <radialGradient id="glow" cx="30%" cy="50%" r="70%">
+          <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F1EA"/>
+        </radialGradient>
+        <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#EDD3BE"/><stop offset="1" stop-color="#DDB497"/>
+        </linearGradient>
+        <radialGradient id="gold" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#FFE9A3"/><stop offset=".45" stop-color="#F0BC3E"/><stop offset=".85" stop-color="#C98A17"/><stop offset="1" stop-color="#7A4A0C"/>
+        </radialGradient>
+        <clipPath id="win"><rect x="432" y="80" width="290" height="252" rx="30"/></clipPath>
+        <clipPath id="almond"><path d="M488 222C518 182 548 170 578 170s60 12 90 52c-30 38-60 50-90 50s-60-12-90-50Z"/></clipPath>
+      </defs>
+      <ellipse cx="400" cy="392" rx="300" ry="16" fill="#59260B" opacity=".10"/>
+      <g transform="rotate(-3 400 205)">
+        <rect x="40" y="40" width="720" height="332" rx="60" fill="#2B231E"/>
+        <rect x="54" y="54" width="692" height="304" rx="48" fill="url(#glow)"/>
+        <rect x="70" y="166" width="22" height="80" rx="11" fill="#15110E"/>
+        <!-- 白光板：几道淡光线 -->
+        <g stroke="#AB6645" stroke-width="3" stroke-linecap="round" opacity=".22">
+          <path d="M250 150v-26M250 262v26M194 206h-26M306 206h26M210 166l-17-17M290 246l17 17M290 166l17-17M210 246l-17 17"/>
+        </g>
+        <circle cx="250" cy="206" r="30" fill="none" stroke="#AB6645" stroke-width="3" opacity=".22"/>
+        <!-- 放大窗 -->
+        <g clip-path="url(#win)">
+          <rect x="432" y="80" width="290" height="252" fill="url(#skin)"/>
+          <path d="M470 168c30-26 66-38 108-38s80 12 112 38" fill="none" stroke="#B8876A" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+          <path d="M488 222C518 182 548 170 578 170s60 12 90 52c-30 38-60 50-90 50s-60-12-90-50Z" fill="#FBF7F1"/>
+          <g clip-path="url(#almond)">
+            <circle cx="578" cy="220" r="46" fill="url(#gold)"/>
+            <g stroke="#9A6512" stroke-width="2" opacity=".55" stroke-linecap="round">
+              <path d="M578 186v-12M578 254v12M544 220h-12M612 220h12M554 196l-8-8M602 244l8 8M602 196l8-8M554 244l-8 8M565 188l-4-11M591 252l4 11M591 188l4-11M565 252l-4 11M546 207l-11-4M610 233l11 4M610 207l11-4M546 233l-11 4"/>
+            </g>
+            <circle cx="578" cy="220" r="46" fill="none" stroke="#5A360A" stroke-width="3"/>
+            <ellipse cx="578" cy="220" rx="6.5" ry="30" fill="#1B120C"/>
+            <rect x="590" y="196" width="11" height="8" rx="3" fill="#FFFFFF" opacity=".9"/>
+            <path d="M488 222C518 182 548 170 578 170s60 12 90 52" fill="none" stroke="#59260B" stroke-width="10" opacity=".18"/>
+          </g>
+          <path d="M488 222C518 182 548 170 578 170s60 12 90 52" fill="none" stroke="#4A2410" stroke-width="4" stroke-linecap="round"/>
+          <path d="M488 222c30 38 60 50 90 50s60-12 90-50" fill="none" stroke="#9C6A4E" stroke-width="2.5" stroke-linecap="round"/>
+          <g stroke="#4A2410" stroke-width="3" stroke-linecap="round">
+            <path d="M512 196l-10-12M534 182l-6-14M558 174l-3-15M600 174l3-15M624 182l6-14M646 196l10-12"/>
+          </g>
+          <!-- 眼心向上的箭头（冷色，同 App 内 Palette.reference） -->
+          <g stroke-linecap="round" stroke-linejoin="round">
+            <path d="M578 220V118" stroke="#1E5F8C" stroke-width="10"/>
+            <path d="M578 220V118" stroke="#6BC7FF" stroke-width="6"/>
+            <path d="M578 92l-17 30h34Z" fill="#6BC7FF" stroke="#1E5F8C" stroke-width="3"/>
+            <circle cx="578" cy="220" r="6" fill="#6BC7FF" stroke="#1E5F8C" stroke-width="3"/>
+          </g>
+        </g>
+        <rect x="432" y="80" width="290" height="252" rx="30" fill="none" stroke="#59260B" stroke-opacity=".18" stroke-width="2"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<!-- ── 场景 ── -->
+<section class="wrap">
+  <p class="eyebrow"><span class="zh">适用场景</span><span class="en" lang="en">WHAT IT HELPS WITH</span></p>
+  <h2 class="h2 zh">贴着眼睛的小动作，难在看不清自己</h2>
+  <h2 class="h2 en" lang="en">Small tasks right at your eye — the hard part is seeing it</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="badge"><svg class="ic" viewBox="0 0 48 48"><path d="M16 46V32a8 8 0 0 1 16 0v14"/><path d="M10 24c3-8 8.5-12 14-12s11 4 14 12Z"/></svg></div>
+      <div class="zh"><h3>戴摘隐形眼镜、美瞳</h3>
+        <p class="pain">「摘了框架眼镜凑近镜子，手又挡在前面。」</p>
+        <p>手机举在眼前，眼睛稳稳停在放大窗里，镜片边缘、睫毛和眼睑都看得清。</p></div>
+      <div class="en" lang="en"><h3>Contact lenses, colored ones too</h3>
+        <p class="pain">“Take off your glasses and lean in to the mirror — and your hand gets in the way.”</p>
+        <p>Hold up your iPhone and your eye stays put in the magnifier, with lens edges, lashes and lids easy to see.</p></div>
+    </article>
+    <article class="card">
+      <div class="badge"><svg class="ic" viewBox="0 0 48 48"><path d="M14 45h16a3 3 0 0 0 3-3V23a3 3 0 0 0-3-3H14a3 3 0 0 0-3 3v19a3 3 0 0 0 3 3Z"/><path d="M16 20v-6h12v6M19 14l3-10 3 10"/><path d="M41 26s-4 4.6-4 7.4a4 4 0 0 0 8 0C45 30.6 41 26 41 26Z"/></svg></div>
+      <div class="zh"><h3>滴眼药水</h3>
+        <p class="pain">「仰头滴药时，镜子根本不在视野里。」</p>
+        <p>手机举在脸的正上方，屏幕既是镜子也是灯，箭头提示哪边是上。一靠近就忍不住眨眼？画面先定住，睁眼自动锁回。</p></div>
+      <div class="en" lang="en"><h3>Eye drops</h3>
+        <p class="pain">“Tilt your head back for drops and a mirror is out of sight.”</p>
+        <p>Hold the phone right above your face: the screen is both mirror and light, and an arrow shows which way is up. Blink as the bottle gets close? The view holds and locks right back on.</p></div>
+    </article>
+    <article class="card">
+      <div class="badge"><svg class="ic" viewBox="0 0 48 48"><path d="M3 14h26l9 6v8l-9 6H3Z"/><path d="M8 14v20"/><path d="M38 19h7v10h-7"/></svg></div>
+      <div class="zh"><h3>涂眼膏</h3>
+        <p class="pain">「眼膏挤到了哪儿，自己也看不见。」</p>
+        <p>眼睑和睫毛放大到屏幕上，看清自己在做什么。不用额外配件，和瓶子、药膏的款式无关。</p></div>
+      <div class="en" lang="en"><h3>Eye ointment</h3>
+        <p class="pain">“Squeeze out ointment and you can't tell where it landed.”</p>
+        <p>Your lids and lashes fill the screen, so you can see what you're doing. No add-ons — it works with any bottle, tube or lens.</p></div>
+    </article>
+  </div>
+</section>
+
+<!-- ── 功能 ── -->
+<section class="wrap">
+  <p class="eyebrow"><span class="zh">功能</span><span class="en" lang="en">HIGHLIGHTS</span></p>
+  <h2 class="h2 zh">放大、锁定，再给你一个方向</h2>
+  <h2 class="h2 en" lang="en">Magnify, lock on, and point the way</h2>
+  <ul class="feats">
+    <li><svg class="ic" viewBox="0 0 88 88"><path d="M8 44C20 26 32 20 44 20s24 6 36 24C68 62 56 68 44 68S20 62 8 44Z"/><circle cx="44" cy="44" r="11"/><path d="M44 6v8M44 74v8"/></svg>
+      <div><div class="t zh">稳稳锁住虹膜，眨眼自动锁回</div><div class="t en" lang="en">Locks onto your iris — and back on after a blink</div></div></li>
+    <li><svg class="ic" viewBox="0 0 88 88"><circle cx="38" cy="38" r="24"/><path d="M56 56l22 22M38 28v20M28 38h20"/></svg>
+      <div><div class="t zh">隐形、眼药、眼膏，都能看清</div><div class="t en" lang="en">Contacts, drops, ointment — see it clearly</div></div></li>
+    <li><svg class="ic" viewBox="0 0 88 88"><circle cx="44" cy="40" r="15"/><path d="M44 8v6M44 66v6M12 40h6M70 40h6M21 17l4 4M63 59l4 4M67 17l-4 4M25 59l-4 4"/><path d="M36 78h16"/></svg>
+      <div><div class="t zh">屏幕就是灯，仰头也看得见</div><div class="t en" lang="en">The screen is your light, even with your head back</div></div></li>
+    <li><svg class="ic" viewBox="0 0 88 88"><path d="M44 78V14M26 32l18-18 18 18"/><circle cx="44" cy="78" r="4"/></svg>
+      <div><div class="t zh">箭头辅助线：始终指向正上方</div>
+        <div class="s zh">按手机感知的重力方向，怎么斜着拿都指向真实上方；只提示方向，不判断操作是否到位</div>
+        <div class="t en" lang="en">An arrow that always points straight up</div>
+        <div class="s en" lang="en">Using the gravity your iPhone senses, it points to true up however you tilt the phone. It shows direction only and doesn't judge whether you got it right.</div></div></li>
+    <li><svg class="ic" viewBox="0 0 88 88"><rect x="26" y="8" width="36" height="72" rx="8"/><path d="M40 70h8M36 34v-6a8 8 0 0 1 16 0v6"/><rect x="33" y="34" width="22" height="16" rx="3"/></svg>
+      <div><div class="t zh">全程在手机上处理，不存不传</div><div class="t en" lang="en">All on your iPhone — never saved, never sent</div></div></li>
+  </ul>
+</section>
+
+<!-- ── 怎么用 ── -->
+<section class="wrap">
+  <p class="eyebrow"><span class="zh">怎么用</span><span class="en" lang="en">HOW TO USE</span></p>
+  <h2 class="h2 zh">举起手机，三步就好</h2>
+  <h2 class="h2 en" lang="en">Hold it up — three steps</h2>
+  <ol class="steps">
+    <li><p class="zh">把手机举在眼前 20–40 厘米，屏幕对着自己。滴眼药水、涂眼膏时可以仰头，把手机举在脸的正上方。</p>
+      <p class="en" lang="en">Hold your iPhone 20–40 cm (8–16 in) from your face, screen toward you. For eye drops or ointment, tilt your head back and hold the phone above you.</p></li>
+    <li><p class="zh">屏幕下方的放大窗会自动锁住一只眼睛并放大显示。</p>
+      <p class="en" lang="en">The magnifier at the bottom finds one eye and locks onto it.</p></li>
+    <li><p class="zh">想看另一只眼：按住放大窗里的画面拖向那只眼，松手就换过去。</p>
+      <p class="en" lang="en">To switch eyes, press the image in the magnifier, drag it toward the other eye and let go.</p></li>
+  </ol>
+  <p class="more zh">横拿时把摄像头放在左边，锁得更稳。换眼、暂时跟丢等细节见<a href="https://github.com/Guxi11/dingmujing#readme">使用说明</a>。</p>
+  <p class="more en" lang="en">Holding it sideways? Keep the camera on the left for a steadier lock. More details in the <a href="https://github.com/Guxi11/dingmujing#steadeye-english">guide</a>.</p>
+</section>
+
+<!-- ── 试用与价格 ── -->
+<section class="wrap">
+  <p class="eyebrow"><span class="zh">试用与价格</span><span class="en" lang="en">FREE TRIAL AND PRICING</span></p>
+  <div class="price">
+    <p class="big zh">3 天免费试用，<br>之后<em>一次买断</em></p>
+    <p class="big en" lang="en">Free for 3 days,<br>then <em>pay once</em></p>
+    <ul class="zh">
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>开始试用不收费，到期也不会自动扣费</li>
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>一次付费、永久使用，不是订阅</li>
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>没有广告，不需要账号</li>
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>换机或重装后，在 App 内点「恢复购买」即可</li>
+    </ul>
+    <ul class="en" lang="en">
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Starting the trial is free, and nothing is charged when it ends</li>
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Pay once and keep it — no subscription</li>
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>No ads, no account</li>
+      <li><svg class="ic" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>On a new or reinstalled device, just tap “Restore Purchases”</li>
+    </ul>
+    <p class="fine zh">试用结束后，取景页（眼睛锁定放大、方向箭头、虹膜贴图）需要买断才能继续使用；说明、隐私政策与恢复购买始终可用。</p>
+    <p class="fine en" lang="en">After the trial, the viewfinder (eye lock and magnifier, direction arrow, iris stickers) requires a one-time purchase to keep using; the guide, privacy policy and Restore Purchases stay available.</p>
+  </div>
+</section>
+
+<!-- ── 隐私 ── -->
+<section class="wrap">
+  <div class="privacy">
+    <svg class="ic" viewBox="0 0 88 88"><rect x="26" y="8" width="36" height="72" rx="8"/><path d="M40 70h8M36 34v-6a8 8 0 0 1 16 0v6"/><rect x="33" y="34" width="22" height="16" rx="3"/></svg>
+    <div>
+      <p class="zh">所有画面都只在你的 iPhone 上实时处理：逐帧在内存里计算，不保存、不截图、不上传。没有账号、广告和统计。</p>
+      <p class="en" lang="en">Everything happens on your iPhone in real time. Camera frames are processed one by one in memory and are never saved, captured or uploaded. No account, no ads, no analytics.</p>
+      <p class="link"><a class="zh" href="PRIVACY.html">阅读隐私政策 →</a><a class="en" lang="en" href="PRIVACY.html#english">Read the privacy policy →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ── 请注意 ── -->
+<section class="wrap notice">
+  <div class="zh">
+    <p>定目镜只提供取景、放大与方向提示，不是医疗器械，不能替代医生或验配师的建议；它不判断镜片是否戴好、药液是否滴入。</p>
+    <p>用药方法请遵医嘱或药品说明书；隐形眼镜的佩戴与护理请遵照验配师建议和产品说明；眼部如有不适，请及时就医。</p>
+  </div>
+  <div class="en" lang="en">
+    <p>Steadeye only provides a magnified view and a direction cue. It is not a medical device and does not replace advice from your doctor or eye care professional. It doesn't tell you whether a lens is in place or whether a drop went in.</p>
+    <p>For eye drops and ointments, follow your doctor's instructions or the product label; for contact lenses, follow your eye care professional's advice and the product instructions. If your eyes feel uncomfortable, see a doctor.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <nav class="zh"><a href="PRIVACY.html">隐私政策</a><a href="FEEDBACK.html">反馈</a><a href="https://github.com/Guxi11/dingmujing#readme">使用说明</a></nav>
+  <nav class="en" lang="en"><a href="PRIVACY.html#english">Privacy Policy</a><a href="FEEDBACK.html#english">Feedback</a><a href="https://github.com/Guxi11/dingmujing#steadeye-english">Guide</a></nav>
+  <span>© 2026 定目镜 Steadeye</span>
+</footer>
+</body>
+</html>

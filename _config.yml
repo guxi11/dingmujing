@@ -1,2 +1,9 @@
 title: 定目镜 Steadeye
 description: 稳定锁定眼睛的放大取景镜
+# 所有 Markdown 页套 _layouts/default.html（覆盖 Pages 默认主题的同名布局）；
+# index.html 无 front matter，按静态文件原样发布，优先于 README 成为首页。
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
