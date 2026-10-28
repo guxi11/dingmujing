@@ -40,13 +40,13 @@ App 启动时会通过 StoreKit 向 Apple 加载商品信息；购买与恢复�
 
 ## 反馈
 
-在 App 里点「写邮件反馈」会打开你的邮件 App，并在正文预填机型代号、iOS 版本和 App 版本，方便排查问题；发不发、写什么都由你决定，预填内容可以删改。点击时 App 会将开发者邮箱复制到剪贴板，不会读取剪贴板内容。你主动发送的邮件会由开发者收到，并按回复和排查问题所需予以保留；如需删除已发送邮件中的内容，请联系下方邮箱提出请求。
+在 App 里点「写邮件反馈」会打开你的邮件 App，并在正文预填机型代号、iOS 版本和 App 版本，方便排查问题；发不发、写什么都由你决定，预填内容可以删改。点击时 App 会将开发者邮箱复制到剪贴板，不会读取剪贴板内容。你主动发送的邮件会由开发者收到，仅用于回复和排查问题。如对反馈邮件的保留或删除有疑问，请联系下方邮箱。
 
 在 GitHub Issues 提交的内容公开可见，并适用 GitHub 的隐私条款；请不要在 Issues 里上传带有你面部的照片或录屏。
 
 ## 儿童
 
-相机、面部和运动数据不会发送给开发者。儿童或其监护人若主动发送邮件反馈，开发者会收到邮件及其中的个人信息；请只提供处理问题所需的内容，并可联系下方邮箱请求删除已发送邮件中的内容。
+相机、面部和运动数据不会发送给开发者。儿童或其监护人若主动发送邮件反馈，开发者会收到邮件及其中的个人信息，并仅用于回复和排查问题。如对反馈邮件的保留或删除有疑问，请联系下方邮箱。
 
 ## 政策变更
 
@@ -103,13 +103,13 @@ At launch, the app uses StoreKit to load product information from Apple; Apple p
 
 ## Feedback
 
-Tapping "Email Feedback" opens your mail app with your device model code, iOS version, and app version pre-filled to help diagnose issues. Whether and what you send is up to you, and you can edit or delete the pre-filled text. When tapped, the app copies the developer's email address to the clipboard and does not read clipboard contents. Emails you choose to send are received by the developer and retained as needed to reply and troubleshoot. To request deletion of content in an email you sent, contact the email address below.
+Tapping "Email Feedback" opens your mail app with your device model code, iOS version, and app version pre-filled to help diagnose issues. Whether and what you send is up to you, and you can edit or delete the pre-filled text. When tapped, the app copies the developer's email address to the clipboard and does not read clipboard contents. Emails you choose to send are received by the developer and used only to reply and troubleshoot. For questions about retention or deletion of feedback emails, contact the address below.
 
 Content posted to GitHub Issues is public and subject to GitHub's privacy terms. Please don't upload photos or recordings of your face there.
 
 ## Children
 
-Camera, face, and motion data are not sent to the developer. If a child or their guardian chooses to email feedback, the developer receives the email and personal information it contains. Please provide only what is needed to address the issue; you may contact the email address below to request deletion of content in an email you sent.
+Camera, face, and motion data are not sent to the developer. If a child or their guardian chooses to email feedback, the developer receives the email and personal information it contains and uses it only to reply and troubleshoot. For questions about retention or deletion of feedback emails, contact the address below.
 
 ## Changes
 
